@@ -1,6 +1,8 @@
 # **Machine Learning Development Platform with Docker & Jupyter**
 
 
+This project is licensed for academic use as part of the **Grado Ciencias de Datos** at **UPV**. It is intended for educational purposes and internal evaluation.
+
 This project provides a reproducible Machine Learning development environment using Docker.
 It includes:
 
@@ -115,5 +117,5 @@ Jiale Mao
 
 
 ## **License**
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-This project is licensed for academic use as part of the **Grado Ciencias de Datos** at **UPV**. It is intended for educational purposes and internal evaluation.
