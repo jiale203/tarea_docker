@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  jupyter:
+    build: ./jupyter
+    container_name: ml_jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./jupyter/workspace:/workspace
+      - ./models:/models
+      - ./output:/output
+
+  trainer:
+    build: ./trainer
+    container_name: ml_trainer
+    volumes:
+      - ./models:/models
+      - ./output:/output
+    depends_on:
+      - jupyter
